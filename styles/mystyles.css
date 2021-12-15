@@ -1,0 +1,82 @@
+
+
+/* Main Heading for Resume */
+.resumeheader {
+    font-weight: bold; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Sub Heading for Resume */
+.secondheader {
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Sub sub heading for resume */
+.resumesubheader {
+    font-weight: normal;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+}
+
+.greyheading {
+    text-align: center; 
+    color: rgb(73, 73, 73); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.grey {
+    color: rgb(73, 73, 73);
+}
+
+a:hover {
+    color: rgb(1, 1, 75);
+}
+
+a {
+    color: rgb(73, 73, 73);
+    font-style: normal;
+}
+
+.footer {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: small;
+}
+
+/* solid border */
+hr.solid {
+    border-top: 1px solid;
+    color: rgb(73, 73, 73);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* Three image containers */
+.column {
+    float: left;
+    width: 33.3%;
+    padding: 2px;
+}
+
+/* Two image containers */
+.secondcolumn {
+    float: right;
+    width: 50%;
+    padding: 2px;
+}
+
+/* clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}

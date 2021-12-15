@@ -1,0 +1,97 @@
+.common {
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+}
+
+a:hover {
+    color: rgb(1, 1, 75);
+}
+
+a {
+    color: rgb(73, 73, 73);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 10px;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 0px;
+    height: 100px;
+    background-color: white;
+}
+
+.rightheader {
+    float: right;
+    padding-top: 20px;
+    padding-right: 120px;
+}
+
+.maintitle {
+    color:rgb(73, 73, 73);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: bolder;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+
+.mainbody {
+    top: 110px;
+    bottom: 64px;
+    left: 0px;
+    right: 0px;
+    background-image: url(../images/background.jpeg);
+    margin-bottom: 10px;
+}
+
+figcaption {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    letter-spacing: 0px;
+    color: rgb(73, 73, 73);
+    text-align: justify;
+}
+
+.footer {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 50px;
+    /*position: fixed; */
+    background-color: white;
+    font-size: x-small;
+    color: rgb(73, 73, 73);
+    text-align: center;
+}
+
+.footertext {
+    font-size: x-small;
+    color: rgb(73, 73, 73);
+    text-align: center;
+}
+
+/* Two image containers */
+.column {
+    float: left;
+    width: 49%;
+    padding: 5px;
+}
+
+.secondcolumn {
+    float: right;
+    width: 49%;
+    padding: 5px;
+}
+
+/* clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
